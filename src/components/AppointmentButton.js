@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBar from 'react-bootstrap/NavBar';
 import '../App.css'
 
 const AppointmentButton = props => {

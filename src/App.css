@@ -59,7 +59,8 @@ hr {
 
   #textLink,
   #emailLink {
-    visibility: visible;
+    visibility: visible !important;
+    width: 20vw !important;
   }
 
   #emailSmallLink {
