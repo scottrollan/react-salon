@@ -59,6 +59,7 @@ hr {
 
   #textLink,
   #emailLink {
+    transform: none;
     position: fixed;
     display: block !important;
     top: 85vh !important;

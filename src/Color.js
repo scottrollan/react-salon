@@ -29,21 +29,21 @@ const Color = props => {
                 </div>
             </Jumbotron>
             
-            <Carousel style={{marginBottom: '2vh', borderRadius: "0 0 3vw 3vw", zIndex: '999 !important' }}>
+            <Carousel style={{marginBottom: '2vh', borderRadius: "0 0 3vw 3vw", zIndex: '1 !important' }}>
                 <Carousel.Item>
-                    <img src={Myth1} className="d-block w-100" alt="" style={{margin: 0, zIndex: '999', borderRadius: "0 0 3vw 3vw" }}/>
+                    <img src={Myth1} className="d-block w-100" alt="" style={{margin: 0, zIndex: '1', borderRadius: "0 0 3vw 3vw" }}/>
                 </Carousel.Item>
                 <Carousel.Item>
-                <img src={Myth2} className="d-block w-100" alt=""style={{margin: 0, zIndex: '999', borderRadius: "0 0 3vw 3vw" }} />
+                <img src={Myth2} className="d-block w-100" alt=""style={{margin: 0, zIndex: '1', borderRadius: "0 0 3vw 3vw" }} />
                 </Carousel.Item>
                 <Carousel.Item>
-                <img src={Myth3} className="d-block w-100" alt="" style={{margin: 0, zIndex: '999', borderRadius: "0 0 3vw 3vw" }}/>
+                <img src={Myth3} className="d-block w-100" alt="" style={{margin: 0, zIndex: '1', borderRadius: "0 0 3vw 3vw" }}/>
                 </Carousel.Item>       
                 <Carousel.Item>
-                    <img src={Myth4} className="d-block w-100" alt="" style={{margin: 0, zIndex: '999', borderRadius: "0 0 3vw 3vw" }}/>
+                    <img src={Myth4} className="d-block w-100" alt="" style={{margin: 0, zIndex: '1', borderRadius: "0 0 3vw 3vw" }}/>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={Myth5} className="d-block w-100" alt="" style={{margin: 0, zIndex: '999', borderRadius: "0 0 3vw 3vw" }}/>
+                    <img src={Myth5} className="d-block w-100" alt="" style={{margin: 0, zIndex: '1', borderRadius: "0 0 3vw 3vw" }}/>
                 </Carousel.Item>
             </Carousel>
 
