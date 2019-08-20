@@ -1,20 +1,23 @@
 import React from 'react';
-import NavBar from './NavBar';
-// import Home from './Home';
+import NavBar from './components/NavBar';
+import AppointmentButton from './components/AppointmentButton';
+import ContactButtons from './components/ContactButtons';
+import Home from './Home';
 import Color from './Color';
+import Services from './Services';
 import './App.css';
-import AppointmentButton from './AppointmentButton';
 
 function App() {
-  return (
+    return (
     <div className="App">
       <NavBar />
-      <AppointmentButton/>
-      {/* <Home /> */}
-      <Color/>
-
+      <AppointmentButton />
+      <Home />
+      <Color />
+      <Services />
+      <ContactButtons />
     </div>
   );
-}
+};
 
 export default App;

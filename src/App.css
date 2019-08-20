@@ -1,32 +1,85 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
+}
+
+body {
   background-color: lightgray;
+  background-image: url("./photos/broken-noise.png");
+  background-repeat: repeat;
+  font-family: 'ABeeZee', sans-serif;
+  min-height: 100vh;
 }
 
 .page {
-  padding: 1vh 10vw 12vh 10vw;
+  width: 100%;
+  padding: 12vh 10vw;
 }
 
-.appointmentWrapper{
-  text-align: center;
-}
-.appointmentPanel {
-  font-size: 7vw;
-  margin: 2vh 0;
-  width: 100%;
-  position: inherit;
-  display: inline-block;
-  z-index: 1000 !important;
+.hide {
+  display: none;
 }
 
-#textLink,
-#emailLink {
-  font-size: 6vw;
-  line-height: 9vh;
-  margin: 2vh 0;
-  width: 100%;
-  height: auto;
-  position: inherit;
-  display: inline-block;
-  z-index: 1000 !important;
+.pageHeader {
+  font-size: 4vh;
+  color: #ffffff;
+}
+.btn {
+  background-color: #343a40;
+  border: 1px solid #343a40;
+  box-shadow: 0 0 5px #343a40;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #343a40;
+  border: 1px solid #343a40;
+  box-shadow: none;
+}
+hr { 
+  display: block;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+}
+#footer:hover {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .page {
+    padding: 12vh 2vw 17vh;
+  }
+
+  #textLink {
+    display: inline-block !important;
+    left: 2vw !important;
+    top: 85vh !important;
+    width: 18vw !important;
+  }
+
+  #emailLink {
+    left: 80vw !important;
+    top: 85vh !important;
+    width: 18vw !important;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  #emailLink,
+  #textLink {
+    width: 45vw !important;
+  }
+
+  #emailLink {
+    left: 53vw !important;
+  }
+  
+  .service {
+    font-size: 7vw;
+    width: 70vw;
+    margin: 10vh 15vw;
+  }
+
 }

@@ -1,0 +1,94 @@
+.serviceBtn {
+    position: relative;
+    float: left;
+    margin: 18vh 3.333vw 0 3.333vw;
+    min-height: 20vw;
+    min-width: 20vw;
+    height: auto !important;
+}
+
+  
+.button-container {
+  position: relative;
+  text-align: center;
+  padding: 0;
+  border-radius:50%; 
+  overflow:hidden; 
+  cursor: pointer;
+  height: 20vw;
+  width: 20vw;
+}  
+
+.button-images {
+    min-width: 20vw; 
+}  
+  
+.button-container p {
+    transition: all 1s ease-out;
+    background: rgba(88, 88, 88, 0.7);
+    border-radius:50%; 
+    vertical-align:middle;
+    color: #FFFFFF;
+    position:absolute;
+    font-size: 2.5vw; 
+    font-weight: 700; 
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    line-height: 20vw;
+    width:20vw;
+    height: 20vw;
+    display:inline-block;
+    text-decoration: none;
+    text-transform:uppercase;
+}
+  
+.button-container p:hover {
+    background: none;
+    border: none; 
+    opacity:0;
+}
+.button-container img{width:20vw; height:20vw; display:block}
+  
+.last {
+  margin-right: 0 !important;
+  clear: right;
+}
+  
+.clearboth {
+  clear: both;
+  display: block;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  width: 100%;
+}
+  
+@media only screen and (max-width: 1024px) {
+    .serviceBtn {
+        position: block;
+        margin: 2vh calc(50% - 10vh + 1vw);
+        min-height: 20vh;
+        min-width: 100%;
+    }
+          
+    .button-container {
+      position: block;
+      height: 20vh;
+      width: 20vh;
+    }  
+    
+    .button-images {
+        min-width: 20vh; 
+    }  
+      
+    .button-container p {
+        font-size: 2.5vw; 
+        line-height: 20vh;
+        width:20vh;
+        height: 20vh;
+    }
+
+    .button-container img{width:20vh; height:20vh;}
+}
