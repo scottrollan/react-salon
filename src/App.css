@@ -59,18 +59,11 @@ hr {
 
   #textLink,
   #emailLink {
-    transform: none;
-    position: fixed;
-    display: block !important;
-    top: 85vh !important;
-    width: 18vw !important;
-  }
-  #textLink {
-    left: 2vw !important;
+    visibility: visible;
   }
 
-  #emailLink {
-    left: 80vw !important;
+  #emailSmallLink {
+    visibility: hidden;
   }
 
 }
@@ -81,8 +74,11 @@ hr {
     width: 45vw !important;
   }
 
+  #textLink {
+    left: 1vw;
+  }
   #emailLink {
-    left: 50vw !important;
+    right: 1vw !important;
   }
   
   .service {
