@@ -1,7 +1,6 @@
 import React from 'react';
 import NavBar from './components/NavBar';
 import AppointmentButton from './components/AppointmentButton';
-import ContactButtons from './components/ContactButtons';
 import Home from './Home';
 import Color from './Color';
 import Services from './Services';
@@ -15,7 +14,6 @@ function App() {
       <Home />
       <Color />
       <Services />
-      <ContactButtons />
     </div>
   );
 };
