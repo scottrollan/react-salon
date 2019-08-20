@@ -50,7 +50,10 @@ hr {
   .page {
     padding: 12vh 2vw 17vh;
   }
-
+  .navbar-brand {
+    display: none;
+  }
+  
   #textLink {
     display: inline-block !important;
     left: 2vw !important;
