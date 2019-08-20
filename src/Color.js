@@ -22,20 +22,13 @@ const Color = props => {
         <div 
           className="page hide"  
           id="color">
-            <Jumbotron style={{margin: '2vh 0', borderRadius: "3vw 3vw 3vw 3vw" }}>
-                <div className="container">
-                    <img src={Logo} alt="" className="omLogo"/>
-                    <p className="lead">Healthy hair begins when it’s free from stress. Reduce the chemical overload. We challenge the artificial norms of professional haircare with formulations that are both effective and gentle. Removing harsh chemicals wherever possible while including natural extracts and active minerals that deliver real benefits.</p>
-                </div>
-            </Jumbotron>
         
             <Jumbotron id="jHeader" style={{margin: 0, borderRadius: "3vw 3vw 0 0" }}>
                 <div className="container">        
-                    <p className="text-center" style={{ fontSize: '3vw', fontWeight: '800' }}>Mythbusting non-toxic color with O&amp;M Cor</p>
+                    <p className="text-center myth" style={{ fontSize: '3vw', fontWeight: '800' }}>Mythbusting non-toxic color with O&amp;M Cor</p>
                 </div>
             </Jumbotron>
-
-
+            
             <Carousel style={{marginBottom: '2vh', borderRadius: "0 0 3vw 3vw", zIndex: '999 !important' }}>
                 <Carousel.Item>
                     <img src={Myth1} className="d-block w-100" alt="" style={{margin: 0, zIndex: '999', borderRadius: "0 0 3vw 3vw" }}/>
@@ -53,6 +46,14 @@ const Color = props => {
                     <img src={Myth5} className="d-block w-100" alt="" style={{margin: 0, zIndex: '999', borderRadius: "0 0 3vw 3vw" }}/>
                 </Carousel.Item>
             </Carousel>
+
+
+            <Jumbotron style={{margin: '2vh 0', borderRadius: "3vw 3vw 3vw 3vw", paddingTop: '0' }}>
+                <div className="container">
+                    <img src={Logo} alt=""/>
+                    <p className="lead">Healthy hair begins when it’s free from stress. Reduce the chemical overload. We challenge the artificial norms of professional haircare with formulations that are both effective and gentle. Removing harsh chemicals wherever possible while including natural extracts and active minerals that deliver real benefits.</p>
+                </div>
+            </Jumbotron>
             <Blog textStyle={textStyle}/>
         </div>
     )

@@ -53,18 +53,23 @@ hr {
   .navbar-brand {
     display: none;
   }
-  
-  #textLink {
-    display: inline-block !important;
-    left: 2vw !important;
+  .myth{
+    font-size: 5vw !important;
+  }
+
+  #textLink,
+  #emailLink {
+    position: fixed;
+    display: block !important;
     top: 85vh !important;
     width: 18vw !important;
+  }
+  #textLink {
+    left: 2vw !important;
   }
 
   #emailLink {
     left: 80vw !important;
-    top: 85vh !important;
-    width: 18vw !important;
   }
 
 }
@@ -76,7 +81,7 @@ hr {
   }
 
   #emailLink {
-    left: 53vw !important;
+    left: 50vw !important;
   }
   
   .service {

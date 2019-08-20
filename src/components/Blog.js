@@ -17,7 +17,7 @@ const Blog = props => {
     };
     return(
         <Jumbotron style={{margin: 0, borderRadius: "3vw 3vw 3vw 3vw" }}>
-        <h1 className="fromBarry" style={{ maxWidth: '30%', float: 'left' }}>From Barry</h1>
+        <h1 className="fromBarry" style={{ maxWidth: '27%', float: 'left' }}>From Barry</h1>
         <div>
             <p className="lead" style={props.textStyle}>I am pleased to see that more people are educating themselves on toxicity and are seeking out alternatives to traditional home and personal care products. There is no real oversight governing to what ingredients the manufacturers of these products are allowed to expose their consumers, so we consumers just have to figure it out ourselves.</p>
             <div>
