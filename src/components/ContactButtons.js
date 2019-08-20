@@ -51,7 +51,7 @@ const ContactButtons = props => {
         cursor: 'pointer',
     }
     return(
-        <span>
+        <div>
             <a href="sms:1-404-202-3562">
             <Button 
                 style={textLink}
@@ -73,7 +73,7 @@ const ContactButtons = props => {
                 >Email Barry
             </Button>
             </a>
-        </span>
+        </div>
 
     )
 
