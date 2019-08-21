@@ -12,7 +12,7 @@ const Coloring = props => {
   
     return (
       <>
-         <div className="serviceBtn">
+         <div className="serviceBtn" id="coloringBtn">
         	<div className="button-container" onClick={handleShow}>
        		  <p>coloring</p>
            		<img src={Photo} alt=''/>

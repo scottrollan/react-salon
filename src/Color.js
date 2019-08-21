@@ -48,7 +48,7 @@ const Color = props => {
             </Carousel>
 
 
-            <Jumbotron style={{margin: '2vh 0', borderRadius: "3vw 3vw 3vw 3vw", paddingTop: '0' }}>
+            <Jumbotron id="originalMineral" style={{margin: '2vh 0', borderRadius: "3vw 3vw 3vw 3vw", paddingTop: '0' }}>
                 <div className="container">
                     <img src={Logo} alt=""/>
                     <p className="lead">Healthy hair begins when it’s free from stress. Reduce the chemical overload. We challenge the artificial norms of professional haircare with formulations that are both effective and gentle. Removing harsh chemicals wherever possible while including natural extracts and active minerals that deliver real benefits.</p>

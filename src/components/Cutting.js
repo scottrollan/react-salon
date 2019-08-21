@@ -12,11 +12,11 @@ const Cutting = props => {
   
     return (
       <>
-        <div className="serviceBtn">
+        <div className="serviceBtn" id="cuttingBtn">
         	<div className="button-container" onClick={handleShow}>
        		  <p>cutting</p>
            		<img src={Photo} alt=''/>
-            </div>
+          </div>
         </div>
   
         <Modal show={show} onHide={handleClose}>
@@ -33,9 +33,6 @@ const Cutting = props => {
             <Button variant="secondary" onClick={handleClose}>
               Close
             </Button>
-            {/* <Button variant="primary" onClick={handleClose}>
-              Save Changes
-            </Button> */}
           </Modal.Footer>
         </Modal>
       </>

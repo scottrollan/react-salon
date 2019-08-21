@@ -12,7 +12,7 @@ const Smoothing = props => {
 
     return (
       <>
-        <div className="serviceBtn">
+        <div className="serviceBtn" id="smoothingBtn">
         	<div className="button-container" onClick={handleShow}>
        		  <p>smoothing</p>
            		<img src={Photo} alt=''/>

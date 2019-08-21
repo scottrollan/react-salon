@@ -1,13 +1,10 @@
 .serviceBtn {
-    position: relative;
     float: left;
-    margin: 18vh 3.333vw 0 3.333vw;
-    min-height: 20vw;
-    min-width: 20vw;
-    height: auto !important;
+    margin: 15% 3vw 0;
+    height: 20vw;
+    width: 20vw;
 }
-
-  
+ 
 .button-container {
   position: relative;
   text-align: center;
@@ -15,12 +12,12 @@
   border-radius:50%; 
   overflow:hidden; 
   cursor: pointer;
-  height: 20vw;
-  width: 20vw;
+  height:  100%;
+  width:  100%;
 }  
 
 .button-images {
-    min-width: 20vw; 
+    min-width:  100%; /* images are square so this handles height as well */
 }  
   
 .button-container p {
@@ -36,9 +33,9 @@
     left:0;
     right:0;
     bottom:0;
-    line-height: 20vw;
-    width:20vw;
-    height: 20vw;
+    line-height:  20vw;
+    width: 100%;
+    height:  100%;
     display:inline-block;
     text-decoration: none;
     text-transform:uppercase;
@@ -49,7 +46,10 @@
     border: none; 
     opacity:0;
 }
-.button-container img{width:20vw; height:20vw; display:block}
+.button-container img{
+  width: 100%; 
+  height: 100%; 
+}
   
 .last {
   margin-right: 0 !important;
@@ -66,29 +66,24 @@
 }
   
 @media only screen and (max-width: 1024px) {
-    .serviceBtn {
-        position: block;
-        margin: 2vh calc(50% - 10vh + 1vw);
-        min-height: 20vh;
-        min-width: 100%;
-    }
-          
-    .button-container {
-      position: block;
-      height: 20vh;
-      width: 20vh;
-    }  
-    
-    .button-images {
-        min-width: 20vh; 
-    }  
+  #cuttingBtn {
+    margin: 2vh calc(25% - 10vh + 1vw);
+    height: 20vh;
+    width: 20vh;
+  }   
+  #coloringBtn {
+    margin: 2vh calc(50% - 10vh + 1vw); /* centered given btn width and page padding*/
+    height: 20vh;
+    width: 20vh;
+  }    
+  #smoothingBtn {
+    margin: 2vh calc(75% - 10vh + 1vw);
+    height: 20vh;
+    width: 20vh;
+  }
       
     .button-container p {
-        font-size: 2.5vw; 
         line-height: 20vh;
-        width:20vh;
-        height: 20vh;
     }
 
-    .button-container img{width:20vh; height:20vh;}
 }
