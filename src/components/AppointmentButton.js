@@ -22,9 +22,8 @@ const AppointmentButton = props => {
     }
 
     return(
-        <div>
-            <ContactButtons />
         <footer style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+        <ContactButtons />
             <a 
                 style={footerLink} 
                 href="https://squareup.com/appointments/book/01469063-8cb8-4b57-9076-51933d0b1e9a/61SVRS8W8BGB2/services"
@@ -32,7 +31,6 @@ const AppointmentButton = props => {
                 >make an appointment
             </a>
         </footer>
-        </div>
     )
 }
 

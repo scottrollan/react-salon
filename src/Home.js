@@ -10,10 +10,10 @@ const Home = props => {
         <div 
           className="page"  
           id="home">
-            <Jumbotron style={{ background: '#d3d3d3', borderRadius: '10vw' }}>
+            <Jumbotron style={{ background: '#d3d3d3', borderRadius: '10vw', maxHeight: '98vw' }}>
             <div className="col-md-12 center-block">
                 <p className='pageHeader'>Barry is now working at the Dunwoody location of</p>
-                <img src={Sola} alt='' style={{ margin: '5vh 0' }}/>
+                <img src={Sola} alt='' style={{ maxWidth: '86vw' }}/>
                 <Map />
             </div>
             </Jumbotron>
