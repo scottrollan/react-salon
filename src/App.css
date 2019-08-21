@@ -42,6 +42,31 @@ hr {
   border-style: inset;
   border-width: 1px;
 }
+
+.link {
+  visibility: hidden;
+  position: fixed;
+  top: 85vh;
+  height: auto;
+  width: 8vw;
+  text-align: center;
+  padding: 6.5px;
+  background: whitesmoke;
+  font-size: 20px;
+  color: #c4122f;    
+  border: solid .8px #c4122f;
+  margin: 0 0 2vh 0;
+  cursor: pointer;
+}
+
+#textLink {
+  left: 2vw;
+}
+
+#emailLink {
+  right: 2vw;
+}
+
 #footer:hover {
   text-decoration: none;
 }
