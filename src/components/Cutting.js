@@ -23,10 +23,10 @@ const Cutting = props => {
           <Modal.Header closeButton>
             <Modal.Title>Haircuts</Modal.Title>
           </Modal.Header>
-          <Modal.Body><b>Shampoo, Cut and Blow Dry</b>
+          <Modal.Body><h5><b>Shampoo, Cut &amp; Blow Dry</b></h5>
             <p style={{ textAlign: 'right' }}><em> $65</em></p>
             <hr></hr>
-            <b>Men's Short Haircut</b>
+            <h5><b>Men's Short Haircut</b></h5>
             <p style={{ textAlign: 'right' }}><em>$45</em></p>
           </Modal.Body>
           <Modal.Footer>

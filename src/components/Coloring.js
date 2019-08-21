@@ -24,16 +24,16 @@ const Coloring = props => {
             <Modal.Title>Color Services
             </Modal.Title>
           </Modal.Header>
-          <Modal.Body><b>All-Over Color</b> acheives gray coverage or a complete color change with one color, applied to the entire head.
+          <Modal.Body><p><b>All-Over Color</b>acheives gray coverage or a complete color change with one color, applied to the entire head.</p>
               <p style={{ textAlign: 'right' }}><em>starts at $90</em></p>
               <hr></hr>
-              <b>Partial Highlights</b>, whether applied by foiling or with balayage, are placed around the face for a brightening or framing effect.
+              <p><b>Partial Highlights</b>, whether applied by foiling or with balayage, are placed around the face for a brightening or framing effect.</p>
               <p style={{ textAlign: 'right' }}><em>starts at $120</em></p>
               <hr></hr>
-              <b>Full Highlights</b> are like partial highlights but are placed throughout the top, crown and/or back of the head.
+              <p><b>Full Highlights</b> are like partial highlights but are placed throughout the top, crown and/or back of the head.</p>
               <p style={{ textAlign: 'right' }}><em>starts at $165</em></p>
               <hr></hr>
-              <b>Ombre Highlights</b> give a gradient of color from darker to lighter, from root to ends. They are generally applied via balayage.
+              <p><b>Ombre Highlights</b> give a gradient of color from darker to lighter, from root to ends. They are generally applied via balayage.</p>
               <p style={{ textAlign: 'right' }}><em>starts at $165</em></p>
             </Modal.Body>
 

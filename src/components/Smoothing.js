@@ -23,7 +23,7 @@ const Smoothing = props => {
           <Modal.Header closeButton>
             <Modal.Title>Smoothing</Modal.Title>
           </Modal.Header>
-          <Modal.Body><b>Brazilian Blowout</b> is a customizable retexturizing treatment that smoothes frizz and softens curl.
+          <Modal.Body><p><b>Brazilian Blowout</b> is a customizable retexturizing treatment that smoothes frizz and softens curl.</p>
             <p style={{ textAlign: 'right' }}><em>starts at $240</em></p>
           </Modal.Body>
           <Modal.Footer>

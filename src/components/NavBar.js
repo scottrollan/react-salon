@@ -20,10 +20,6 @@ const NavBar = props => {
         height: '10vh !important'
     }
 
-    const navLinkStyle = {
-        fontSize: '1.5vw'
-    }
-
     return (
         <Navbar bg="dark" variant="dark" sticky='top' style={navbar}>
             <Navbar.Brand onClick={() => clickBtn('home')} style={{ cursor: 'pointer' }}>Barry Rollan Studio</Navbar.Brand>
