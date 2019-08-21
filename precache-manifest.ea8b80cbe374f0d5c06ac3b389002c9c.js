@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a13637c500ae57efd24d83d6c1b57dbd",
+    "revision": "8f7d4a21ba561fd3d7c6fd076bd558b2",
     "url": "/react-salon/index.html"
   },
   {
-    "revision": "0dc6047be9545ef4bdc0",
-    "url": "/react-salon/static/css/main.930d5af9.chunk.css"
+    "revision": "4114c1e2591b1605fddd",
+    "url": "/react-salon/static/css/main.0964584c.chunk.css"
   },
   {
     "revision": "504ef770174c5c8d18b1",
     "url": "/react-salon/static/js/2.bc074917.chunk.js"
   },
   {
-    "revision": "0dc6047be9545ef4bdc0",
-    "url": "/react-salon/static/js/main.b912dec4.chunk.js"
+    "revision": "4114c1e2591b1605fddd",
+    "url": "/react-salon/static/js/main.3ca6c819.chunk.js"
   },
   {
     "revision": "aea089d66a98b8334ec8",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-salon/static/media/Myths-5.d09851a3.jpg"
   },
   {
-    "revision": "56adfe899d5e3b9b4b58614d515bdfeb",
-    "url": "/react-salon/static/media/broken-noise.56adfe89.png"
+    "revision": "15f1e2a8fd4c08c197b3556c32c4af00",
+    "url": "/react-salon/static/media/brushed_alu_@2X.15f1e2a8.png"
   },
   {
     "revision": "19476c19e1a7ce87189da55e83d95fc1",
