@@ -11,6 +11,10 @@ body {
   min-height: 100vh;
 }
 
+.navLink {
+  font-size: 1.5vw;
+}
+
 .page {
   width: 100%;
   padding: 12vh 10vw;
@@ -82,8 +86,15 @@ hr {
   .page {
     padding: 12vh 2vw 17vh;
   }
+  .navbar {
+    max-height: 7vh;
+  }
   .navbar-brand {
     display: none;
+  }
+  
+  .navLink {
+    font-size: 4.5vw;
   }
   .myth{
     font-size: 5vw !important;

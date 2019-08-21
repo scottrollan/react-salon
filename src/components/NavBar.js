@@ -17,16 +17,32 @@ const NavBar = props => {
         position: 'fixed',
         left: 0,
         top: 0,
-        height: '10vh'
+        height: '10vh !important'
+    }
+
+    const navLinkStyle = {
+        fontSize: '1.5vw'
     }
 
     return (
         <Navbar bg="dark" variant="dark" sticky='top' style={navbar}>
             <Navbar.Brand onClick={() => clickBtn('home')} style={{ cursor: 'pointer' }}>Barry Rollan Studio</Navbar.Brand>
             <Nav className="mr-auto">
-            <Nav.Link onClick={() => clickBtn('home')}>Home</Nav.Link>
-            <Nav.Link onClick={() => clickBtn('services')}>Services</Nav.Link>
-            <Nav.Link onClick={() => clickBtn('color')}>O&amp;M Cor Color</Nav.Link>
+            <Nav.Link 
+                onClick={() => clickBtn('home')}
+                className="navLink"
+                >Home
+            </Nav.Link>
+            <Nav.Link 
+                onClick={() => clickBtn('services')}
+                className="navLink"             
+                >Services
+            </Nav.Link>
+            <Nav.Link 
+                onClick={() => clickBtn('color')}
+                className="navLink"
+                >O&amp;M Cor Color
+            </Nav.Link>
             </Nav>
         </Navbar>
     )
