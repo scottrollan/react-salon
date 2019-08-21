@@ -22,7 +22,7 @@ const AppointmentButton = props => {
     }
 
     return(
-        <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+        <footer style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
             <ContactButtons />
             <a 
                 style={footerLink} 
@@ -30,7 +30,7 @@ const AppointmentButton = props => {
                 id="footer"
                 >make an appointment
             </a>
-        </div>
+        </footer>
     )
 }
 

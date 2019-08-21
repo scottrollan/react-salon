@@ -1,12 +1,11 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
-import '../App.css'
 
 const ContactButtons = props => {
     const textLink={
         visibility: 'hidden',
         position: 'fixed',
-        top: '84vh',
+        top: '85vh',
         left: '2vw',
         height: 'auto',
         width: '8vw',
@@ -22,7 +21,7 @@ const ContactButtons = props => {
     const emailLink={
         visibility: 'hidden',
         position: 'fixed',
-        top: '84vh',
+        top: '85vh',
         right: '2vw',
         height: 'auto',
         width: '8vw',

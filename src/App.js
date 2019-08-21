@@ -10,10 +10,10 @@ function App() {
     return (
     <div className="App">
       <NavBar />
-      <AppointmentButton />
       <Home />
       <Color />
       <Services />
+      <AppointmentButton />
     </div>
   );
 };
