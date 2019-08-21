@@ -6,11 +6,11 @@ const ContactButtons = props => {
     const emailSmallLink={
         position: 'fixed',
         top: '12vh',
-        right: '1vw',
+        right: '-1vw',
         width: '8vw',
         height: 'auto',
         textAlign: 'center',
-        padding: '6.5px',
+        padding: '6.5px 2vw 6.5px 6.5px',
         background: 'whitesmoke',
         fontSize: '20px',
         color: '#c4122f',    

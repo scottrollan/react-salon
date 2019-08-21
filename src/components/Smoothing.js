@@ -19,7 +19,7 @@ const Smoothing = props => {
             </div>
         </div>
   
-        <Modal show={show} onHide={handleClose}>
+        <Modal className='modal' show={show} onHide={handleClose}>
           <Modal.Header closeButton>
             <Modal.Title>Smoothing</Modal.Title>
           </Modal.Header>

@@ -88,6 +88,9 @@ hr {
   .myth{
     font-size: 5vw !important;
   }
+  .modal {
+    width: 90vw;
+  }
 
   #textLink,
   #emailLink {

@@ -6,6 +6,7 @@ class MyVerticallyCenteredModal extends Component {
     render() {
       return (
         <Modal
+          className="modal"
           {...this.props}
           size="lg"
           aria-labelledby="contained-modal-title-vcenter"

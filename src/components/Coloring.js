@@ -19,7 +19,7 @@ const Coloring = props => {
             </div>
         </div>
  
-        <Modal show={show} onHide={handleClose}>
+        <Modal className="modal" show={show} onHide={handleClose}>
           <Modal.Header closeButton>
             <Modal.Title>Color Services
             </Modal.Title>
