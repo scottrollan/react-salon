@@ -7,7 +7,7 @@ const AppointmentButton = props => {
         zIndex: '1000 !important',
         bottom: 0,
         backgroundColor: '#c3122f',
-        fontSize: '4.5vh',
+        fontSize: 'calc(20px + .8vw)',
         textAlign: 'center',
         color: 'whitesmoke',
         textTransform: 'uppercase',

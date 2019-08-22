@@ -15,9 +15,11 @@ const Blog = props => {
     const collapseMe = () => {
         setExpandState({ expanded: false })
     };
+
+
     return(
         <Jumbotron id="blog" style={{margin: 0, borderRadius: "3vw 3vw 3vw 3vw" }}>
-        <p id="fromBarry" style={{ maxWidth: '27%', float: 'left', fontSize: 'calc(16px + 1.2vw)' }}><b>From Barry</b></p>
+        <p id="fromBarry" style={{ maxWidth: '27%', float: 'left' }}><b>From Barry</b></p>
         <div>
             <p className="lead" style={props.textStyle}>I am pleased to see that more people are educating themselves on toxicity and are seeking out alternatives to traditional home and personal care products. There is no real oversight governing to what ingredients the manufacturers of these products are allowed to expose their consumers, so we consumers just have to figure it out ourselves.</p>
             <div>

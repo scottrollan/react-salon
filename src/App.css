@@ -9,6 +9,7 @@ body {
   background-repeat: repeat;
   font-family: 'ABeeZee', sans-serif;
   min-height: 100vh;
+  font-size: calc(20px + 1vw);
 }
 
 .navLink {
