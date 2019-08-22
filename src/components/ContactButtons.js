@@ -12,7 +12,7 @@ const ContactButtons = props => {
         textAlign: 'center',
         padding: '6.5px 2vw 6.5px 6.5px',
         background: 'whitesmoke',
-        fontSize: '20px',
+        fontSize: '3vh',
         color: '#c4122f',    
         border: 'solid .8px #c4122f',
         margin: '0 0 2vh 0',

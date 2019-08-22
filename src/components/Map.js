@@ -30,7 +30,10 @@ class MyVerticallyCenteredModal extends Component {
                 ></iframe>
           </Modal.Body>
           <Modal.Footer>
-            <Button onClick={this.props.onHide}>Close Map</Button>
+            <Button 
+              onClick={this.props.onHide}
+              >Close Map
+            </Button>
           </Modal.Footer>
         </Modal>
       );
@@ -52,8 +55,9 @@ class MyVerticallyCenteredModal extends Component {
           <Button
             className="btn"
             onClick={() => this.setState({ modalShow: true })}
-            style={{ width: "150px" }}
-          >
+            style={{ fontSize: '2.5vw !important' }}  
+
+            >
             Open Map
           </Button>
   

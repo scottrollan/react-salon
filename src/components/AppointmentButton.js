@@ -1,5 +1,4 @@
 import React from 'react';
-import ContactButtons from './ContactButtons';
 
 const AppointmentButton = props => {
 
@@ -8,11 +7,12 @@ const AppointmentButton = props => {
         zIndex: '1000 !important',
         bottom: 0,
         backgroundColor: '#c3122f',
+        fontSize: '4.5vh',
         textAlign: 'center',
         color: 'whitesmoke',
         textTransform: 'uppercase',
-        height: '7vh',
-        padding: '2vh 3vw',
+        height: 'auto',
+        padding: '1.3vh 3vw',
         display: 'inline-block',
         fontWeight: '600',
         letterSpacing: '.3vw',
@@ -23,7 +23,6 @@ const AppointmentButton = props => {
 
     return(
         <footer style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
-        <ContactButtons />
             <a 
                 style={footerLink} 
                 href="https://squareup.com/appointments/book/01469063-8cb8-4b57-9076-51933d0b1e9a/61SVRS8W8BGB2/services"

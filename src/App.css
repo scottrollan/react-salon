@@ -32,6 +32,7 @@ body {
   background-color: #343a40;
   border: 1px solid #343a40;
   box-shadow: 0 0 5px #343a40;
+  font-size: 3vh;
 }
 
 .btn:hover {
@@ -50,13 +51,13 @@ hr {
 .link {
   visibility: hidden;
   position: fixed;
-  top: 85vh;
+  top: 81vh;
   height: auto;
   width: 8vw;
   text-align: center;
   padding: 6.5px;
   background: whitesmoke;
-  font-size: 20px;
+  font-size: 3.5vh;
   color: #c4122f;    
   border: solid .8px #c4122f;
   margin: 0 0 2vh 0;
@@ -64,11 +65,14 @@ hr {
 }
 
 #textLink {
-  left: 2vw;
+  left: -2.5vw;
+  padding-left: 2vw;
 }
 
 #emailLink {
-  right: 2vw;
+  right: -2.5vw;
+  padding-right: 2vw;
+
 }
 
 #originalMineral,
@@ -100,14 +104,11 @@ hr {
   .myth{
     font-size: 5vw !important;
   }
-  .modal {
-    width: 98vw;
-  }
 
   #textLink,
   #emailLink {
     visibility: visible !important;
-    width: 20vw !important;
+    width: 45vw !important;
   }
 
   #emailSmallLink {
@@ -117,17 +118,6 @@ hr {
 }
 
 @media only screen and (max-width: 768px) {
-  #emailLink,
-  #textLink {
-    width: 45vw !important;
-  }
-
-  #textLink {
-    left: 1vw;
-  }
-  #emailLink {
-    right: 1vw !important;
-  }
   
   .service {
     font-size: 7vw;

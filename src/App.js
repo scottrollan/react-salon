@@ -4,6 +4,7 @@ import AppointmentButton from './components/AppointmentButton';
 import Home from './Home';
 import Color from './Color';
 import Services from './Services';
+import ContactButtons from './components/ContactButtons';
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <Color />
       <Services />
+      <ContactButtons />
       <AppointmentButton />
     </div>
   );
