@@ -15,7 +15,6 @@ const Color = props => {
     const textStyle = {
         textAlign: 'justify',
         textJustify: 'inter-word',
-        marginLeft: '30%',
     }
 
     return(
@@ -23,32 +22,32 @@ const Color = props => {
           className="page hide"  
           id="color">
         
-            <Jumbotron id="jHeader" style={{margin: 0, borderRadius: "3vw 3vw 0 0" }}>
+            <Jumbotron id="jHeader" style={{margin: 0 }}>
                 <div className="container">        
                     <p className="text-center myth" style={{ fontSize: '3vw', fontWeight: '800' }}>Mythbusting non-toxic color with O&amp;M Cor</p>
                 </div>
             </Jumbotron>
             
-            <Carousel style={{marginBottom: '2vh', borderRadius: "0 0 3vw 3vw", zIndex: '1 !important' }}>
+            <Carousel>
                 <Carousel.Item>
-                    <img src={Myth1} className="d-block w-100" alt="" style={{margin: 0, zIndex: '1', borderRadius: "0 0 3vw 3vw" }}/>
+                    <img src={Myth1} className="d-block w-100" alt="" style={{margin: 0, zIndex: '1' }}/>
                 </Carousel.Item>
                 <Carousel.Item>
-                <img src={Myth2} className="d-block w-100" alt=""style={{margin: 0, zIndex: '1', borderRadius: "0 0 3vw 3vw" }} />
+                <img src={Myth2} className="d-block w-100" alt=""style={{margin: 0, zIndex: '1' }} />
                 </Carousel.Item>
                 <Carousel.Item>
-                <img src={Myth3} className="d-block w-100" alt="" style={{margin: 0, zIndex: '1', borderRadius: "0 0 3vw 3vw" }}/>
+                <img src={Myth3} className="d-block w-100" alt="" style={{margin: 0, zIndex: '1' }}/>
                 </Carousel.Item>       
                 <Carousel.Item>
-                    <img src={Myth4} className="d-block w-100" alt="" style={{margin: 0, zIndex: '1', borderRadius: "0 0 3vw 3vw" }}/>
+                    <img src={Myth4} className="d-block w-100" alt="" style={{margin: 0, zIndex: '1' }}/>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={Myth5} className="d-block w-100" alt="" style={{margin: 0, zIndex: '1', borderRadius: "0 0 3vw 3vw" }}/>
+                    <img src={Myth5} className="d-block w-100" alt="" style={{margin: 0, zIndex: '1' }}/>
                 </Carousel.Item>
             </Carousel>
 
 
-            <Jumbotron id="originalMineral" style={{margin: '2vh 0', borderRadius: "3vw 3vw 3vw 3vw", paddingTop: '0' }}>
+            <Jumbotron id="originalMineral" style={{ background: 'transparent', padding: '12px', width: '100vw', margin: '0' }}>
                 <div className="container">
                     <img src={Logo} alt=""/>
                     <p className="lead">Healthy hair begins when it’s free from stress. Reduce the chemical overload. We challenge the artificial norms of professional haircare with formulations that are both effective and gentle. Removing harsh chemicals wherever possible while including natural extracts and active minerals that deliver real benefits.</p>

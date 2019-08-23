@@ -4,9 +4,9 @@
 }
 
 body {
-  background-color: lightgray;
-  background-image: url("./photos/brushed_alu_@2X.png");
-  background-repeat: repeat;
+  background-color: #f2f2f2;
+  /* background-image: url("./photos/brushed_alu_@2X.png");
+  background-repeat: repeat; */
   font-family: 'ABeeZee', sans-serif;
   min-height: 100vh;
   font-size: calc(20px + 1vw);
@@ -17,8 +17,8 @@ body {
 }
 
 .page {
-  width: 100%;
-  padding: 11vh 10vw;
+  width: 100vw;
+  padding: 11vh 0;
 }
 
 .hide {
@@ -53,8 +53,8 @@ hr {
   visibility: hidden;
   position: fixed;
   bottom: 8.5vh;
-  height: auto;
-  max-height: 8vh;
+  height: 8vh;
+  min-height: 50px;
   width: 8vw;
   text-align: center;
   padding: 6.5px;
@@ -90,7 +90,7 @@ hr {
 
 @media only screen and (max-width: 1024px) {
   .page {
-    padding: 12vh 2vw 20vh;
+    padding: 12vh 0 20vh;
   }
   .navbar {
     max-height: 7vh;
