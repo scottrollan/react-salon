@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f7457611360897605ac315f417b0fed3",
+    "revision": "fe94157fe01ed769dc7b94c400b70a02",
     "url": "/react-salon/index.html"
   },
   {
-    "revision": "754cabd2672bd334ab21",
-    "url": "/react-salon/static/css/main.06fb8da6.chunk.css"
+    "revision": "0988ea7b935c2b04d5b5",
+    "url": "/react-salon/static/css/main.0df8de05.chunk.css"
   },
   {
-    "revision": "504ef770174c5c8d18b1",
-    "url": "/react-salon/static/js/2.bc074917.chunk.js"
+    "revision": "909503269bf19319e50d",
+    "url": "/react-salon/static/js/2.abb9b0b5.chunk.js"
   },
   {
-    "revision": "754cabd2672bd334ab21",
-    "url": "/react-salon/static/js/main.63f1baba.chunk.js"
+    "revision": "0988ea7b935c2b04d5b5",
+    "url": "/react-salon/static/js/main.5476adac.chunk.js"
   },
   {
     "revision": "aea089d66a98b8334ec8",
@@ -38,10 +38,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d09851a33ab5263c213874b0c40a80cb",
     "url": "/react-salon/static/media/Myths-5.d09851a3.jpg"
-  },
-  {
-    "revision": "15f1e2a8fd4c08c197b3556c32c4af00",
-    "url": "/react-salon/static/media/brushed_alu_@2X.15f1e2a8.png"
   },
   {
     "revision": "19476c19e1a7ce87189da55e83d95fc1",
