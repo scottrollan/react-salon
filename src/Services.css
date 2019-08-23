@@ -72,12 +72,12 @@
     width: 20vh;
   }   
   #coloringBtn {
-    margin: 2vh calc(50% - 10vh + 1vw); /* centered given btn width and page padding*/
+    margin: 2vh calc(50% - 10vh + 1vw); /* centered, given btn width (20vh) and page padding*/
     height: 20vh;
     width: 20vh;
   }    
   #smoothingBtn {
-    margin: 2vh calc(75% - 10vh + 1vw);
+    margin: 2vh calc(75% - 10vh + 1vw) 1vh;
     height: 20vh;
     width: 20vh;
   }

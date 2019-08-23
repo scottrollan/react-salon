@@ -19,7 +19,10 @@ const Smoothing = props => {
             </div>
         </div>
   
-        <Modal className='modal' show={show} onHide={handleClose}>
+        <Modal 
+          dialogClassName="modal-90w"
+          show={show} 
+          onHide={handleClose}>
           <Modal.Header closeButton>
             <Modal.Title>Smoothing</Modal.Title>
           </Modal.Header>

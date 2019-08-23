@@ -18,7 +18,7 @@ body {
 
 .page {
   width: 100%;
-  padding: 12vh 10vw;
+  padding: 11vh 10vw;
 }
 
 .hide {
@@ -52,13 +52,14 @@ hr {
 .link {
   visibility: hidden;
   position: fixed;
-  top: 81vh;
+  bottom: 8.5vh;
   height: auto;
+  max-height: 8vh;
   width: 8vw;
   text-align: center;
   padding: 6.5px;
   background: whitesmoke;
-  font-size: 3.5vh;
+  font-size: calc(18px + .8vw);
   color: #c4122f;    
   border: solid .8px #c4122f;
   margin: 0 0 2vh 0;
@@ -89,7 +90,7 @@ hr {
 
 @media only screen and (max-width: 1024px) {
   .page {
-    padding: 12vh 2vw 17vh;
+    padding: 12vh 2vw 20vh;
   }
   .navbar {
     max-height: 7vh;
