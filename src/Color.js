@@ -1,7 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Jumbotron from 'react-bootstrap/Jumbotron';
-import Blog from './components/Blog';
 import Logo from './photos/o&mLogo.png';
 import Myth1 from './photos/Myths-1.jpg';
 import Myth2 from './photos/Myths-2.jpg';
@@ -11,12 +10,6 @@ import Myth5 from './photos/Myths-5.jpg';
 
 
 const Color = props => {
-    
-    const textStyle = {
-        textAlign: 'justify',
-        textJustify: 'inter-word',
-    }
-
     return(
         <div 
           className="page hide"  
@@ -53,7 +46,6 @@ const Color = props => {
                     <p className="lead">Healthy hair begins when it’s free from stress. Reduce the chemical overload. We challenge the artificial norms of professional haircare with formulations that are both effective and gentle. Removing harsh chemicals wherever possible while including natural extracts and active minerals that deliver real benefits.</p>
                 </div>
             </Jumbotron>
-            <Blog textStyle={textStyle}/>
         </div>
     )
 };
