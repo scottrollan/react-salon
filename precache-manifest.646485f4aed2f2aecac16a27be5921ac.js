@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe94157fe01ed769dc7b94c400b70a02",
+    "revision": "c4f04be8418ea6d87811f567b38d7b8e",
     "url": "/react-salon/index.html"
   },
   {
-    "revision": "0988ea7b935c2b04d5b5",
+    "revision": "9a24e663bd09ce8e2dfd",
     "url": "/react-salon/static/css/main.0df8de05.chunk.css"
   },
   {
-    "revision": "909503269bf19319e50d",
-    "url": "/react-salon/static/js/2.abb9b0b5.chunk.js"
+    "revision": "c3b79a379166638a584c",
+    "url": "/react-salon/static/js/2.c8534a01.chunk.js"
   },
   {
-    "revision": "0988ea7b935c2b04d5b5",
-    "url": "/react-salon/static/js/main.5476adac.chunk.js"
+    "revision": "9a24e663bd09ce8e2dfd",
+    "url": "/react-salon/static/js/main.c10cd6f1.chunk.js"
   },
   {
     "revision": "aea089d66a98b8334ec8",
@@ -48,8 +48,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-salon/static/media/cutting.24f3331d.jpg"
   },
   {
+    "revision": "c8dcf627dbb5da113e65c481a0bdf56d",
+    "url": "/react-salon/static/media/neumaBanner.c8dcf627.png"
+  },
+  {
     "revision": "d54e8613ac2b882bce3da877639aba63",
     "url": "/react-salon/static/media/o&mLogo.d54e8613.png"
+  },
+  {
+    "revision": "4fab512c9cf972afd9da59f189c1a48b",
+    "url": "/react-salon/static/media/omBanner.4fab512c.jpg"
   },
   {
     "revision": "98d60835df331a79165efdc56e96fb9b",
