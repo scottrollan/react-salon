@@ -4,14 +4,18 @@ import AppointmentButton from './components/AppointmentButton';
 import Home from './Home';
 import Color from './Color';
 import Services from './Services';
-// import ContactButtons from './components/ContactButtons';
+import TextLink from './components/TextLink';
+import EmailLink from './components/EmailLink';
+import EmailSmallLink from './components/EmailSmallLink';
 import './App.css';
 
 function App() {
     return (
     <div className="App">
       <NavBar />
-      {/* <ContactButtons /> */}
+      <TextLink />
+      <EmailLink />
+      <EmailSmallLink />
       <AppointmentButton />
       <Home />
       <Color />
