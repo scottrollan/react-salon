@@ -7,10 +7,6 @@ import Myth2 from './photos/Myths-2.jpg';
 import Myth3 from './photos/Myths-3.jpg';
 import Myth4 from './photos/Myths-4.jpg';
 import Myth5 from './photos/Myths-5.jpg';
-import TextLink from './components/TextLink';
-import EmailLink from './components/EmailLink';
-import AppointmentButton from './components/AppointmentButton';
-
 
 const Color = props => {
     return(
@@ -49,9 +45,6 @@ const Color = props => {
                     <p className="lead">Healthy hair begins when it’s free from stress. Reduce the chemical overload. We challenge the artificial norms of professional haircare with formulations that are both effective and gentle. Removing harsh chemicals wherever possible while including natural extracts and active minerals that deliver real benefits.</p>
                 </div>
             </Jumbotron>
-            <TextLink />
-            <EmailLink />
-            <AppointmentButton />
         </div>
     )
 };

@@ -1,11 +1,11 @@
 import React from 'react';
 import NavBar from './components/NavBar';
-// import AppointmentButton from './components/AppointmentButton';
 import Home from './Home';
 import Color from './Color';
 import Services from './Services';
-// import TextLink from './components/TextLink';
-// import EmailLink from './components/EmailLink';
+import TextLink from './components/TextLink';
+import EmailLink from './components/EmailLink';
+import AppointmentButton from './components/AppointmentButton';
 import EmailSmallLink from './components/EmailSmallLink';
 import './App.css';
 
@@ -17,6 +17,9 @@ function App() {
       <Home />
       <Color />
       <Services />
+      <TextLink />
+      <EmailLink />
+      <AppointmentButton />
     </div>
   );
 };

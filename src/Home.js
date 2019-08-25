@@ -31,9 +31,7 @@ const Home = props => {
             {/* <p>________</p>
             <p>Other words go here</p> */}
             <Blog textStyle={textStyle}/>
-            <TextLink />
-            <EmailLink />
-            <AppointmentButton />
+
         </div>
     )
 }
