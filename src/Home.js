@@ -4,6 +4,9 @@ import Map from './components/Map';
 import OmBanner from './photos/omBanner.jpg';
 import NeumaBanner from './photos/neumaBanner.png';
 import Blog from './components/Blog';
+import TextLink from './components/TextLink';
+import EmailLink from './components/EmailLink';
+import AppointmentButton from './components/AppointmentButton';
 import './App.css';
 
 const Home = props => {
@@ -28,6 +31,9 @@ const Home = props => {
             {/* <p>________</p>
             <p>Other words go here</p> */}
             <Blog textStyle={textStyle}/>
+            <TextLink />
+            <EmailLink />
+            <AppointmentButton />
         </div>
     )
 }
