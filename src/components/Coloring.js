@@ -27,7 +27,7 @@ const Coloring = props => {
             <Modal.Title>Color Services
             </Modal.Title>
           </Modal.Header>
-          <Modal.Body><p><b>All-Over Color</b>acheives gray coverage or a complete color change with one color, applied to the entire head.</p>
+          <Modal.Body><p><b>All-Over Color</b> acheives gray coverage or a complete color change with one color, applied to the entire head.</p>
               <p style={{ textAlign: 'right' }}><em>starts at $90</em></p>
               <hr></hr>
               <p><b>Partial Highlights</b>, whether applied by foiling or with balayage, are placed around the face for a brightening or framing effect.</p>
