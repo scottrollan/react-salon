@@ -18,7 +18,7 @@ body {
 
 .page {
   width: 100vw;
-  padding: 11vh 0;
+  padding: 10vh 0 14vh 0;
 }
 
 .hide {
@@ -65,7 +65,7 @@ hr {
   margin: 0 0 2vh 0;
   cursor: pointer;
   -webkit-overflow-scrolling: touch;
-
+  z-index: 9999;
 }
 
 #textLink {

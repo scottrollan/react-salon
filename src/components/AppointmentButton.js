@@ -4,7 +4,7 @@ const AppointmentButton = props => {
 
     const footerLink =     {
         position: 'fixed',
-        zIndex: '1000 !important',
+        zIndex: '9999 !important',
         bottom: 0,
         left: 0,
         backgroundColor: '#c3122f',
