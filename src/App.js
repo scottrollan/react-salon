@@ -13,13 +13,13 @@ function App() {
     return (
     <div className="App">
       <NavBar />
-      <TextLink />
-      <EmailLink />
       <EmailSmallLink />
-      <AppointmentButton />
       <Home />
       <Color />
       <Services />
+      <TextLink />
+      <EmailLink />
+      <AppointmentButton />
     </div>
   );
 };
