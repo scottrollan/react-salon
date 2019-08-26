@@ -1,6 +1,6 @@
 .serviceBtn {
     float: left;
-    margin: 15% 3vw 0;
+    margin: 15% 6% 0;
     height: 20vw;
     width: 20vw;
 }
@@ -66,20 +66,21 @@
 }
   
 @media only screen and (max-width: 1024px) {
-  #cuttingBtn {
-    margin: 1vh calc(25% - 10vh + 1vw);
+  .serviceBtn{
     height: 20vh;
     width: 20vh;
+  }
+  #cuttingBtn {
+    margin: 1vh calc(25% - 10vh + 1vw);
+    
   }   
   #coloringBtn {
     margin: 2vh calc(50% - 10vh + 1vw); /* centered, given btn width (20vh) and page padding*/
-    height: 20vh;
-    width: 20vh;
+    
   }    
   #smoothingBtn {
     margin: 2vh calc(75% - 10vh + 1vw) 1vh;
-    height: 20vh;
-    width: 20vh;
+    
   }
       
     .button-container p {
