@@ -21,7 +21,6 @@ const AppointmentButton = props => {
         width: '100%',
         border: 'none',
         cursor: 'pointer',
-        WebkitOverflowScrolling: 'touch',
     }
 
     return(
