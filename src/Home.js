@@ -25,8 +25,6 @@ const Home = props => {
             <p>4505 Ashford Dunwoody Rd 30346</p>
             <Map />
             <img src={NeumaBanner} alt='' style={{ width: '100%' }} />
-            {/* <p>________</p>
-            <p>Other words go here</p> */}
             <Blog textStyle={textStyle}/>
 
         </div>
