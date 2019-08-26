@@ -12,13 +12,12 @@ import './App.css';
 function App() {
     return (
     <div className="App">
-      <div>
       <NavBar />
       <EmailSmallLink />
       <Home />
       <Color />
       <Services />
-      </div>
+      <div style={{ padding: '9vh', width: '100%' }}></div>
       <TextLink />
       <EmailLink />
       <AppointmentButton />
