@@ -27,14 +27,18 @@ const AppointmentButton = props => {
 
     return(
         <footer>
-            <TextLink />
-            <EmailLink />
-            <a 
-                style={footerLink} 
-                href="https://squareup.com/appointments/book/01469063-8cb8-4b57-9076-51933d0b1e9a/61SVRS8W8BGB2/services"
-                id="footer"
-                >make an appointment
-            </a>
+            <span>
+                <TextLink />
+                <EmailLink />
+            </span>
+            <span>
+                <a 
+                    style={footerLink} 
+                    href="https://squareup.com/appointments/book/01469063-8cb8-4b57-9076-51933d0b1e9a/61SVRS8W8BGB2/services"
+                    id="footer"
+                    >make an appointment
+                </a>
+            </span>
         </footer>        
     )
 }
