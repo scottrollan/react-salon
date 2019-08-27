@@ -3,7 +3,7 @@ import React from 'react';
 const TextLink = props => {
     const textLink={
         position: 'fixed',
-        // top: '9vh',
+        top: '9vh',
         left: '-1vw',
         width: 'auto',
         minWidth: 'calc(140px + 2vw)',
@@ -20,7 +20,7 @@ const TextLink = props => {
     }
 
     return(
-        <a href="sms:1-404-202-3562"
+        <a href="sms:+1-404-202-3562"
             style={textLink}
             id="textLink"
             >Text Barry
