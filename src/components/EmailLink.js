@@ -19,7 +19,7 @@ const EmailLink = () => {
     }
 
     return(
-        <a href="mailto:barry@barryrollanstudio.com?Subject=Hey%20Barry..." 
+        <a href="mailto:barry@barryrollanstudio.com" 
             style={emailLink}
             id="emailLink"
             >Email Barry
