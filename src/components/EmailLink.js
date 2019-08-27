@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
 
 const EmailLink = () => {
     const emailLink={
@@ -20,12 +19,10 @@ const EmailLink = () => {
     }
 
     return(
-        <a href="mailto:barry@barryrollanstudio.com?Subject=Hey%20Barry...">
-        <Button 
+        <a href="mailto:barry@barryrollanstudio.com?Subject=Hey%20Barry..." 
             style={emailLink}
             id="emailLink"
             >Email Barry
-        </Button>
         </a>
     )
 };

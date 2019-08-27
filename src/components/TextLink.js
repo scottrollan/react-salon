@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
 
 const TextLink = props => {
     const textLink={
@@ -21,14 +20,12 @@ const TextLink = props => {
     }
 
     return(
-        // <a href="sms:1-404-202-3562">
-        <Button 
+        <a href="sms:1-404-202-3562"
             style={textLink}
             id="textLink"
             onClick='window.location.href="sms:1-404-202-3562";'
             >Text Barry
-        </Button>
-        // </a>
+        </a>
     )
 };
 
