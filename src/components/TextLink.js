@@ -20,7 +20,7 @@ const TextLink = props => {
     }
 
     return(
-        <a href="sms://4042023562"
+        <a href="sms:4042023562"
             style={textLink}
             id="textLink"
             >Text Barry
