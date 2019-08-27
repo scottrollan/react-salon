@@ -42,7 +42,7 @@ const Color = props => {
             <Jumbotron id="originalMineral" style={{ background: 'transparent', padding: '12px 12px 80px 12px', width: '100vw', margin: '0' }}>
                 <div className="container">
                     <img src={Logo} alt=""/>
-                    <p className="lead">Healthy hair begins when it’s free from stress. Reduce the chemical overload. We challenge the artificial norms of professional haircare with formulations that are both effective and gentle. Removing harsh chemicals wherever possible while including natural extracts and active minerals that deliver real benefits.</p>
+                    <p>Healthy hair begins when it’s free from stress. Reduce the chemical overload. We challenge the artificial norms of professional haircare with formulations that are both effective and gentle. Removing harsh chemicals wherever possible while including natural extracts and active minerals that deliver real benefits.</p>
                 </div>
             </Jumbotron>
         </div>

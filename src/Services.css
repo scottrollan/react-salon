@@ -71,20 +71,15 @@
     width: 20vh;
   }
   #cuttingBtn {
-    margin: 1vh calc(25% - 10vh + 1vw);
-    
+    margin: 1vh calc(25% - 10vh + 1vw); 
   }   
   #coloringBtn {
     margin: 2vh calc(50% - 10vh + 1vw); /* centered, given btn width (20vh) and page padding*/
-    
   }    
   #smoothingBtn {
     margin: 2vh calc(75% - 10vh + 1vw) 1vh;
-    
+  }    
+  .button-container p {
+    line-height: 20vh;
   }
-      
-    .button-container p {
-        line-height: 20vh;
-    }
-
 }

@@ -18,7 +18,7 @@ body {
 .page {
   width: 100%;
   margin: 10vh 0 0 0;
-  padding: 0 0 18vh 0;
+  padding: 0 0 9vh 0;
 }
 
 .hide {
@@ -43,33 +43,11 @@ body {
   box-shadow: none;
 }
 
-.link {
-  visibility: hidden;
-  position: fixed;
-  bottom: 8.5vh;
-  height: 8vh;
-  min-height: 50px;
-  width: 8vw;
-  text-align: center;
-  padding: 6.5px;
-  background: whitesmoke;
-  font-size: calc(18px + .8vw);
-  color: #c4122f;    
-  border: solid .8px #c4122f;
-  margin: 0 0 2vh 0;
-  cursor: pointer;
-  /* -webkit-overflow-scrolling: touch; */
+p {
   z-index: 9999;
 }
-
-#textLink {
-  left: -2.5vw;
-  padding-left: 2vw;
-}
-
-#emailLink {
-  right: -2.5vw;
-  padding-right: 2vw;
+a {
+  z-index: 9998;
 }
 
 #originalMineral,
@@ -102,14 +80,8 @@ body {
     font-size: 5vw !important;
   }
 
-  #textLink,
-  #emailLink {
+  #textLink {
     visibility: visible !important;
-    width: 45vw !important;
-  }
-
-  #emailSmallLink {
-    visibility: hidden;
   }
 
 }
@@ -118,7 +90,6 @@ body {
   
   .service {
     font-size: 7vw;
-    /* width: 70vw; */
     margin: 10vh 15vw;
   }
 
