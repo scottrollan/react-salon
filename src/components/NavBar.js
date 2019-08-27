@@ -1,6 +1,8 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import EmailLink from './EmailLink';
+import TextLink from './TextLink';
 
 const NavBar = props => {
 
@@ -17,10 +19,12 @@ const NavBar = props => {
         position: 'fixed',
         left: 0,
         top: 0,
-        height: '10vh !important'
+        height: '10vh !important',
+        paddingBottom: '0 !important'
     }
 
     return (
+        <div>
         <Navbar bg="dark" variant="dark" sticky='top' style={navbar}>
             <Navbar.Brand onClick={() => clickBtn('home')} style={{ cursor: 'pointer' }}>Barry Rollan Studio</Navbar.Brand>
             <Nav className="mr-auto">
@@ -41,6 +45,9 @@ const NavBar = props => {
             </Nav.Link>
             </Nav>
         </Navbar>
+        <TextLink />
+        <EmailLink />
+        </div>
     )
 
 };
