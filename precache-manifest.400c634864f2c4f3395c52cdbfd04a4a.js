@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6d0ec3d4da166be96c9b31837e879a6d",
+    "revision": "23648ee2a1a66f0e1dcd5773ce1c31c5",
     "url": "/react-salon/index.html"
   },
   {
-    "revision": "f681bdae3f3344dfb0d4",
+    "revision": "84c2fd4a7f44a9f4697c",
     "url": "/react-salon/static/css/main.163474b0.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-salon/static/js/2.8be5d767.chunk.js"
   },
   {
-    "revision": "f681bdae3f3344dfb0d4",
-    "url": "/react-salon/static/js/main.31030f61.chunk.js"
+    "revision": "84c2fd4a7f44a9f4697c",
+    "url": "/react-salon/static/js/main.00baf12f.chunk.js"
   },
   {
     "revision": "aea089d66a98b8334ec8",
