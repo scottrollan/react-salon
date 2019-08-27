@@ -21,7 +21,7 @@ const Home = props => {
                 <p className='pageHeader'>Barry is now working at the Dunwoody location of</p>
                 <img src={Sola} alt='' style={{ maxWidth: '86vw', minWidth: '30vw' }}/>
             </div>
-            <p>4505 Ashford Dunwoody Rd 30346</p>
+            <p style={{ fontSize: 'calc(20px + 1vw)' }}>4505 Ashford Dunwoody Rd 30346</p>
             <Map />
             <img src={NeumaBanner} alt='' style={{ width: '100%' }} />
             <Blog textStyle={textStyle}/>
