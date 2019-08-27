@@ -4,9 +4,9 @@ import Button from 'react-bootstrap/Button';
 const TextLink = props => {
     const textLink={
         position: 'fixed',
-        top: '10vh',
+        top: '9vh',
         left: '-1vw',
-        width: '14vw',
+        width: 'auto',
         minWidth: 'calc(140px + 2vw)',
         height: 'auto',
         textAlign: 'center',
@@ -21,13 +21,14 @@ const TextLink = props => {
     }
 
     return(
-        <a href="sms:1-404-202-3562">
+        // <a href="sms:1-404-202-3562">
         <Button 
             style={textLink}
             id="textLink"
+            onClick='window.location.href="sms:1-404-202-3562";'
             >Text Barry
         </Button>
-        </a>
+        // </a>
     )
 };
 
