@@ -11,7 +11,7 @@ const TextLink = props => {
         textAlign: 'center',
         padding: '6.5px 6.5px 6.5px 1vw',
         background: 'rgba(245, 245, 245, .3)',
-        fontSize: '3vh',
+        fontSize: 'calc(20px + 1vh)',
         color: '#c4122f',    
         border: 'solid .8px #c4122f',
         margin: '0 0 2vh 0',
@@ -20,7 +20,7 @@ const TextLink = props => {
     }
 
     return(
-        <a href="sms:+1-404-202-3562"
+        <a href="sms:4042023562"
             style={textLink}
             id="textLink"
             >Text Barry
