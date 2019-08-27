@@ -23,7 +23,6 @@ const TextLink = props => {
         <a href="sms://+14042023562"
             style={textLink}
             id="textLink"
-            onClick='window.location.href="sms:1-404-202-3562";'
             >Text Barry
         </a>
     )
