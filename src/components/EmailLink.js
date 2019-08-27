@@ -2,11 +2,11 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 
 const EmailLink = () => {
-    const emailSmallLink={
+    const emailLink={
         position: 'fixed',
         top: '10vh',
         right: '-1vw',
-        width: '14vw',
+        width: 'auto',
         minWidth: 'calc(140px + 2vw)',
         height: 'auto',
         textAlign: 'center',
@@ -17,14 +17,13 @@ const EmailLink = () => {
         border: 'solid .8px #c4122f',
         margin: '0 0 2vh 0',
         cursor: 'pointer',
-        zIndex: 9998
     }
 
     return(
         <a href="mailto:barry@barryrollanstudio.com?Subject=Hey%20Barry...">
         <Button 
-            style={emailSmallLink}
-            id="emailSmallLink"
+            style={emailLink}
+            id="emailLink"
             >Email Barry
         </Button>
         </a>

@@ -17,7 +17,6 @@ const TextLink = props => {
         border: 'solid .8px #c4122f',
         margin: '0 0 2vh 0',
         cursor: 'pointer',
-        zIndex: 9998,
         visibility: 'hidden'
     }
 

@@ -22,19 +22,19 @@ const Color = props => {
             
             <Carousel>
                 <Carousel.Item>
-                    <img src={Myth1} className="d-block w-100" alt="" style={{margin: 0, zIndex: '1' }}/>
+                    <img src={Myth1} className="d-block w-100" alt="" style={{margin: 0 }}/>
                 </Carousel.Item>
                 <Carousel.Item>
-                <img src={Myth2} className="d-block w-100" alt=""style={{margin: 0, zIndex: '1' }} />
+                <img src={Myth2} className="d-block w-100" alt=""style={{margin: 0 }} />
                 </Carousel.Item>
                 <Carousel.Item>
-                <img src={Myth3} className="d-block w-100" alt="" style={{margin: 0, zIndex: '1' }}/>
+                <img src={Myth3} className="d-block w-100" alt="" style={{margin: 0 }}/>
                 </Carousel.Item>       
                 <Carousel.Item>
-                    <img src={Myth4} className="d-block w-100" alt="" style={{margin: 0, zIndex: '1' }}/>
+                    <img src={Myth4} className="d-block w-100" alt="" style={{margin: 0 }}/>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={Myth5} className="d-block w-100" alt="" style={{margin: 0, zIndex: '1' }}/>
+                    <img src={Myth5} className="d-block w-100" alt="" style={{margin: 0 }}/>
                 </Carousel.Item>
             </Carousel>
 

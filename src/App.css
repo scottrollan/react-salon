@@ -43,13 +43,6 @@ body {
   box-shadow: none;
 }
 
-p {
-  z-index: 9999;
-}
-a {
-  z-index: 9998;
-}
-
 #originalMineral,
 #jHeader,
 #blog {
