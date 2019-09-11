@@ -10,6 +10,7 @@ const Home = props => {
     const textStyle = {
         textAlign: 'justify',
         textJustify: 'inter-word',
+        fontSize: 'calc(22px + .5vw)'
     }
 
     return(
