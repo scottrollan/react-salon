@@ -16,14 +16,14 @@ const Home = props => {
         <div 
           className="page"  
           id="home">
-            <img src={OmBanner} alt='' style={{ width: '100%' }} />
-            <div className="col-md-12 center-block" style={{ backgroundImage: 'linear-gradient(90deg, #343a40, #7c7c7c, #343a40)', padding: '12px', width: '100vw', margin: '0' }}>
-                <p className='pageHeader'>Barry is now working at the Dunwoody location of</p>
+            <img src={OmBanner} alt='' className='home-child' style={{ width: '100%' }} />
+            <div className="col-md-12 center-block home-child" style={{ backgroundImage: 'linear-gradient(90deg, #343a40, #7c7c7c, #343a40)', padding: '12px', width: '100%' }}>
+                <p style={{ fontSize: 'calc(28px + 1vw', color: '#ffffff' }}>Barry is now working at the Dunwoody location of</p>
                 <img src={Sola} alt='' style={{ maxWidth: '86vw', minWidth: '30vw' }}/>
             </div>
-            <p style={{ fontSize: 'calc(20px + 1vw)' }}>4505 Ashford Dunwoody Rd 30346</p>
+            <p className='home-child' style={{ fontSize: 'calc(24px + .8vw)' }}>4505 Ashford Dunwoody Rd 30346</p>
             <Map />
-            <img src={NeumaBanner} alt='' style={{ width: '100%' }} />
+            <img src={NeumaBanner} alt='' className='home-child' style={{ width: '100%' }} />
             <Blog textStyle={textStyle}/>
 
         </div>

@@ -14,13 +14,13 @@ const Color = props => {
           className="page hide"  
           id="color">
         
-            <Jumbotron id="jHeader" style={{margin: 0 }}>
+            <Jumbotron id="jHeader" className="color-child">
                 <div className="container">        
                     <p className="text-center myth" style={{ fontSize: '3vw', fontWeight: '800' }}>Mythbusting non-toxic color with O&amp;M Cor</p>
                 </div>
             </Jumbotron>
             
-            <Carousel>
+            <Carousel className="color-child">
                 <Carousel.Item>
                     <img src={Myth1} className="d-block w-100" alt="" style={{margin: 0 }}/>
                 </Carousel.Item>
@@ -39,7 +39,7 @@ const Color = props => {
             </Carousel>
 
 
-            <Jumbotron id="originalMineral" style={{ background: 'transparent', padding: '12px 12px 80px 12px', width: '100vw', margin: '0' }}>
+            <Jumbotron id="originalMineral"  className="color-child" style={{ background: 'transparent', padding: '12px 12px 80px 12px', width: '100%' }}>
                 <div className="container">
                     <img src={Logo} alt=""/>
                     <p>Healthy hair begins when it’s free from stress. Reduce the chemical overload. We challenge the artificial norms of professional haircare with formulations that are both effective and gentle. Removing harsh chemicals wherever possible while including natural extracts and active minerals that deliver real benefits.</p>

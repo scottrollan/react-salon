@@ -24,7 +24,7 @@ class MyVerticallyCenteredModal extends Component {
                     title="myMap" 
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.618414695635!2d-84.33942735046408!3d33.92521923176827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5095c8cddd3ff%3A0x121c48daad81b8b1!2s4505+Ashford+Dunwoody+Rd+NE%2C+Dunwoody%2C+GA+30346!5e0!3m2!1sen!2sus!4v1562793980661!5m2!1sen!2sus" 
                     style={{ frameBorder: '0', border: "0"}} 
-                    width='450'
+                    width='400'
                     height='400'
                     allowFullScreen
                 ></iframe>
@@ -55,7 +55,7 @@ class MyVerticallyCenteredModal extends Component {
           <Button
             className="btn"
             onClick={() => this.setState({ modalShow: true })}
-            style={{ fontSize: '2.5vw !important' }}  
+            style={{ fontSize: 'calc(24px + 1vw) !important' }}  
             >
             Open Map
           </Button>
