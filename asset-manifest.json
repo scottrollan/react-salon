@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-salon/static/css/main.7fd67154.chunk.css",
+    "main.css": "/react-salon/static/css/main.cab5b9f2.chunk.css",
     "main.js": "/react-salon/static/js/main.2f669e17.chunk.js",
     "main.js.map": "/react-salon/static/js/main.2f669e17.chunk.js.map",
     "runtime~main.js": "/react-salon/static/js/runtime~main.fddc08e2.js",
@@ -8,9 +8,9 @@
     "static/js/2.8be5d767.chunk.js": "/react-salon/static/js/2.8be5d767.chunk.js",
     "static/js/2.8be5d767.chunk.js.map": "/react-salon/static/js/2.8be5d767.chunk.js.map",
     "index.html": "/react-salon/index.html",
-    "precache-manifest.852babb55023572327ace7ee5f9f18dc.js": "/react-salon/precache-manifest.852babb55023572327ace7ee5f9f18dc.js",
+    "precache-manifest.3a0c36487d24221f02e241bde6efb9c6.js": "/react-salon/precache-manifest.3a0c36487d24221f02e241bde6efb9c6.js",
     "service-worker.js": "/react-salon/service-worker.js",
-    "static/css/main.7fd67154.chunk.css.map": "/react-salon/static/css/main.7fd67154.chunk.css.map",
+    "static/css/main.cab5b9f2.chunk.css.map": "/react-salon/static/css/main.cab5b9f2.chunk.css.map",
     "static/media/Myths-1.jpg": "/react-salon/static/media/Myths-1.8cea082d.jpg",
     "static/media/Myths-2.jpg": "/react-salon/static/media/Myths-2.ce7e4fb8.jpg",
     "static/media/Myths-3.jpg": "/react-salon/static/media/Myths-3.3006abb3.jpg",
