@@ -12,7 +12,8 @@ body {
 }
 
 .navLink {
-  font-size: 1.5vw;
+  font-size: calc(18px + .5vw);
+  padding: 0 15px;
 }
 
 .page {
@@ -25,10 +26,6 @@ body {
   display: none;
 }
 
-.pageHeader {
-  font-size: 4vh;
-  color: #ffffff;
-}
 .btn {
   background-color: #343a40;
   border: 1px solid #343a40;

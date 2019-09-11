@@ -13,7 +13,7 @@ const Services = props => {
     }
 
     return(
-        <div className='page hide button-images' id="services" style={{ width: '100%' }}>
+        <div className='page hide buttons-wrapper' id="services" style={{ width: '100%', maxWidth: '900px' }}>
             <Cutting style={floatLeft}/>
             <Coloring style={floatLeft} />
             <Smoothing style={floatLeft} />

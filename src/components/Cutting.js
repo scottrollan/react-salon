@@ -15,7 +15,7 @@ const Cutting = props => {
         <div className="serviceBtn" id="cuttingBtn">
         	<div className="button-container" onClick={handleShow}>
        		  <p>cutting</p>
-           		<img src={Photo} alt=''/>
+           	<img src={Photo} alt=''/>
           </div>
         </div>
   
