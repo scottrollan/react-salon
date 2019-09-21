@@ -3,7 +3,7 @@ import React from 'react';
 const TextLink = props => {
     const textLink={
         position: 'fixed',
-        top: '7vh',
+        bottom: '0',
         left: '-1vw',
         width: 'auto',
         minWidth: 'calc(140px + 2vw)',
