@@ -3,7 +3,7 @@ import React from 'react';
 const EmailLink = () => {
     const emailLink={
         position: 'fixed',
-        top: '7vh',
+        bottom: '0',
         right: '-1vw',
         width: 'auto',
         minWidth: 'calc(140px + 2vw)',
