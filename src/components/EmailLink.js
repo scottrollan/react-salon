@@ -1,9 +1,6 @@
 import React from 'react';
 
 const EmailLink = () => {
-    // const emailLink={
-    //     float: 'right',
-    // }
 
     return(
         <a href="mailto:barry@barryrollanstudio.com" 
