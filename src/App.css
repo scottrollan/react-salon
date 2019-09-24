@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  padding: 10vh 0 9vh 0;
+
 }
 
 body {
@@ -10,7 +12,7 @@ body {
 }
 
 .navLink {
-  font-size: calc(18px + .5vw);
+  font-size: calc(12px + (10vh / 4));
   padding: 0 15px;
 }
 
@@ -50,6 +52,7 @@ body {
 
 #textLink,
 #emailLink {
+  display: inline-flex;
   width: auto;
   min-width: calc(140px + 2vw);
   height: auto;
@@ -61,6 +64,10 @@ body {
   border: solid .8px #c4122f;
   margin: 1vh;
   cursor: pointer;
+}
+
+#textLink {
+  display: none;
 }
 
 #footer:hover {

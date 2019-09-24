@@ -18,7 +18,7 @@ const NavBar = props => {
         left: 0,
         top: 0,
         height: '10vh !important',
-        paddingBottom: '0 !important'
+        paddingBottom: '0 !important',
     }
 
     return (
