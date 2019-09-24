@@ -9,7 +9,7 @@ const Services = props => {
 
     const floatLeft = {
         float: 'left',
-        margin: '0 5vw 5vw 5vw',        
+        margin: '0 5vw 10vw 5vw',        
     }
 
     return(

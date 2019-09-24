@@ -1,6 +1,5 @@
 import React from 'react';
-import TextLink from './TextLink';
-import EmailLink from './EmailLink';
+
 
 const AppointmentButton = props => {
 
@@ -16,7 +15,6 @@ const AppointmentButton = props => {
         textTransform: 'uppercase',
         height: '8vh',
         minHeight: '55px',
-        padding: '.6vh 0',
         display: 'inline-block',
         fontWeight: '600',
         letterSpacing: '.3vw',
@@ -27,10 +25,6 @@ const AppointmentButton = props => {
 
     return(
         <footer>
-            <span>
-                <TextLink />
-                <EmailLink />
-            </span>
             <span>
                 <a 
                     style={footerLink} 

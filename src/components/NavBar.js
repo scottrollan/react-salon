@@ -1,8 +1,6 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import EmailLink from './EmailLink';
-import TextLink from './TextLink';
 
 const NavBar = props => {
 
@@ -45,8 +43,6 @@ const NavBar = props => {
             </Nav.Link>
             </Nav>
         </Navbar>
-        <TextLink />
-        <EmailLink />
         </div>
     )
 

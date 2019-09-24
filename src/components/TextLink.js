@@ -2,21 +2,7 @@ import React from 'react';
 
 const TextLink = props => {
     const textLink={
-        position: 'fixed',
-        top: '7vh',
-        left: '-1vw',
-        width: 'auto',
-        minWidth: 'calc(140px + 2vw)',
-        height: 'auto',
-        textAlign: 'center',
-        padding: '6.5px 6.5px 6.5px 1vw',
-        background: 'rgba(245, 245, 245, .3)',
-        fontSize: 'calc(28px + 1vh)',
-        color: '#c4122f',    
-        border: 'solid .8px #c4122f',
-        margin: '0 0 2vh 0',
-        cursor: 'pointer',
-        visibility: 'hidden'
+        display: 'none',
     }
 
     return(
