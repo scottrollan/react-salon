@@ -9,7 +9,7 @@ const AppointmentButton = props => {
         bottom: 0,
         left: 0,
         backgroundColor: '#c3122f',
-        fontSize: '5vh',
+        fontSize: '30px',
         lineHeight: '8vh',
         textAlign: 'center',
         verticalAlign: 'middle',
