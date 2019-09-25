@@ -4,7 +4,7 @@ import Home from './Home';
 import Color from './Color';
 import Services from './Services';
 import ContactLinks from './components/ContactLinks';
-import AppointmentButton from './components/AppointmentButton';
+import AppointmentsBar from './components/AppointmentsBar/AppointmentsBar';
 import './App.css';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       <Services />
       <ContactLinks />
       <p>404-202-3562</p>
-      <AppointmentButton />
+      <AppointmentsBar />
     </div>
   );
 };

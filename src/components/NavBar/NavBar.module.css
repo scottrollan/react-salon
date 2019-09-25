@@ -1,10 +1,11 @@
 .navbar {
     display: inline-block;
-    width: 100%;
     position: fixed;
     left: 0;
     top: 0;
-    height: 55px;
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
     background: rgba(60, 60, 60, 1);
     text-align: left;
     letter-spacing: -1.5px;
@@ -13,10 +14,10 @@
 
 .navbar > p {
     display: inline-block;
-    line-height: 20px;
+    line-height: 2vw;
     margin: 18px;
     color: rgba(190, 190, 190, 1);
-    font-size: 32px;
+    font-size: 3vw;
     cursor: pointer;
 
 }
@@ -34,7 +35,7 @@
 
 @media screen and (max-width: 980px) {
     .navbar > p {
-        font-size: 24px;
+        font-size: 6vw;
     }
     .brand {
         display: none;
