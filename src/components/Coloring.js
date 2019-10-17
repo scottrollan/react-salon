@@ -67,6 +67,7 @@ class Coloring extends Component {
                 <div key={d.id}>
                 <p><b>{d.service}</b>{d.descr}</p>
                 <p style={{ textAlign: 'right' }}><em>{d.price}</em></p>
+                <hr/>
                 </div>
               ))}
             </Modal.Body>
