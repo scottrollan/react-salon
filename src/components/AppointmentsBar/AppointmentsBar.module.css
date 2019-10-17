@@ -4,7 +4,7 @@
     bottom: 0;
     left: 0;
     background-color: #c3122f;
-    font-size: 5vw;
+    font-size: calc(22px + .5vw);
     line-height: 3vw;
     text-align: center;
     color: whitesmoke;
@@ -19,9 +19,3 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 980px) {
-    .bar{
-        font-size: 6.5vw;
-        padding: 25px;
-    }
-}

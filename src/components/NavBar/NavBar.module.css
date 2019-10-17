@@ -18,7 +18,7 @@
     line-height: 2vw;
     margin: 18px;
     color: rgba(190, 190, 190, 1);
-    font-size: 3vw;
+    font-size: calc(20px + .3vw);
     cursor: pointer;
 
 }
@@ -35,9 +35,6 @@
 }
 
 @media screen and (max-width: 980px) {
-    .navbar > p {
-        font-size: 6vw;
-    }
     .brand {
         display: none;
     }

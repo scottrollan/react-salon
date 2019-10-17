@@ -22,7 +22,9 @@ const Cutting = props => {
         <Modal         
           dialogClassName="modal-90w"
           show={show} 
-          onHide={handleClose}>
+          onHide={handleClose}
+          style={{ margin: '50px 0', zIndex: '9999', margin: '50px auto' }}>
+
           <Modal.Header closeButton>
             <Modal.Title>Haircuts</Modal.Title>
           </Modal.Header>
