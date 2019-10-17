@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "46b40b9d7db60d47a68002fac0ceb394",
+    "revision": "4ec2b4f4389ff162e9ce66e79c922e88",
     "url": "/react-salon/index.html"
   },
   {
-    "revision": "f8edd84fe11cc6525c45",
-    "url": "/react-salon/static/css/main.76c669c7.chunk.css"
+    "revision": "44803a913f3fc16be79a",
+    "url": "/react-salon/static/css/main.5f727b30.chunk.css"
   },
   {
-    "revision": "542a513ac5f17f8848ef",
-    "url": "/react-salon/static/js/2.d7479938.chunk.js"
+    "revision": "bfac5c4c0946da361e33",
+    "url": "/react-salon/static/js/2.a1d3d592.chunk.js"
   },
   {
-    "revision": "f8edd84fe11cc6525c45",
-    "url": "/react-salon/static/js/main.8975a7a0.chunk.js"
+    "revision": "44803a913f3fc16be79a",
+    "url": "/react-salon/static/js/main.de874f8b.chunk.js"
   },
   {
     "revision": "aea089d66a98b8334ec8",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c8dcf627dbb5da113e65c481a0bdf56d",
     "url": "/react-salon/static/media/neumaBanner.c8dcf627.png"
+  },
+  {
+    "revision": "a6d9a0f7c9182b8aeabe33bceb55e146",
+    "url": "/react-salon/static/media/neumaLogo.a6d9a0f7.png"
   },
   {
     "revision": "d54e8613ac2b882bce3da877639aba63",
