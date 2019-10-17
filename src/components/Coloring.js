@@ -59,13 +59,13 @@ class Coloring extends Component {
           onHide={this.handleClose}
           style={{ margin: '50px 0', zIndex: '9999', maxHeight: '80vh' }}>
           <Modal.Header closeButton>
-            <Modal.Title>Color Services
+            <Modal.Title style={{ fontSize: '30px'}}>Color Services
             </Modal.Title>
           </Modal.Header>
           <Modal.Body>
               {this.state.colorServices.map(d => (
                 <div key={d.id}>
-                <p><b>{d.service}</b>{d.descr}</p>
+                <p><em>{d.service}</em>{d.descr}</p>
                 <p style={{ textAlign: 'right' }}><em>{d.price}</em></p>
                 <hr/>
                 </div>

@@ -23,7 +23,7 @@ const Smoothing = props => {
           dialogClassName="modal-90w"
           show={show} 
           onHide={handleClose}
-          style={{ margin: '50px 0', zIndex: '9999', margin: '50px auto' }}>
+          style={{ zIndex: '9999', margin: '50px auto' }}>
           <Modal.Header closeButton>
             <Modal.Title>Smoothing</Modal.Title>
           </Modal.Header>
