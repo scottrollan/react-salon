@@ -18,7 +18,7 @@
     line-height: 2vw;
     margin: 18px;
     color: rgba(190, 190, 190, 1);
-    font-size: calc(20px + .3vw);
+    font-size: 20px;
     cursor: pointer;
 
 }
