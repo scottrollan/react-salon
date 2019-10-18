@@ -26,7 +26,7 @@ const Cutting = props => {
           style={{ zIndex: '9999', margin: '50px auto' }}>
 
           <Modal.Header closeButton>
-            <Modal.Title>Haircuts</Modal.Title>
+            <Modal.Title style={{ fontSize: '30px', color: '#c3122f' }}>Haircuts</Modal.Title>
           </Modal.Header>
           <Modal.Body><h5><b>Shampoo, Cut &amp; Blow Dry</b></h5>
             <p style={{ textAlign: 'right' }}><em> $65</em></p>

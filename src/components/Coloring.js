@@ -59,7 +59,7 @@ class Coloring extends Component {
           onHide={this.handleClose}
           style={{ margin: '50px 0', zIndex: '9999', maxHeight: '80vh' }}>
           <Modal.Header closeButton>
-            <Modal.Title style={{ fontSize: '30px'}}>Color Services
+            <Modal.Title style={{ fontSize: '30px', color: '#c3122f'}}>Color Services
             </Modal.Title>
           </Modal.Header>
           <Modal.Body>

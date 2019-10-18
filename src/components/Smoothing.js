@@ -25,7 +25,7 @@ const Smoothing = props => {
           onHide={handleClose}
           style={{ zIndex: '9999', margin: '50px auto' }}>
           <Modal.Header closeButton>
-            <Modal.Title>Smoothing</Modal.Title>
+            <Modal.Title style={{ fontSize: '30px', color: '#c3122f' }}>Smoothing</Modal.Title>
           </Modal.Header>
           <Modal.Body><p><b>Brazilian Blowout</b> is a customizable retexturizing treatment that smoothes frizz and softens curl.</p>
             <p style={{ textAlign: 'right' }}><em>starts at $240</em></p>

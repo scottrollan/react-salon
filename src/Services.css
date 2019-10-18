@@ -30,7 +30,7 @@
     border-radius:50%; 
     color: #FFFFFF;
     position:absolute;
-    font-size: calc(18px + .6vw); 
+    font-size: calc(8px + 1vw); 
     font-weight: 700; 
     top: 0;
     left:0;
@@ -77,10 +77,6 @@
     height: 33%;
     padding: 0;
     margin: 0;
-  }
-
-  .button-container > p {
-    font-size: calc(33vh / 14);
   }
 
   #cuttingBtn {
