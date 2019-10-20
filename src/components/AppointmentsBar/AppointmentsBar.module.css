@@ -24,3 +24,8 @@
     color: #593e00;
 }
 
+@media screen and (max-width: 980px) {
+    .bar {
+        padding: 10px;
+    }
+}
