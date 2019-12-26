@@ -1,15 +1,17 @@
 .buttons-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   max-width:  900px;
   margin: 0 auto;
+  padding: 100px 10%;
 }  
-
 .serviceBtn {
-    float: left;
-    position: relative;
-    margin: 15% 6% 0;
-    /* height: 20%; */
-    width: 20%;
-    /* padding-top: 20%; */
+  position: relative;
+  /* height:  150px; */
+  width: 24%;
+  /* margin: 100px; */
+
 }
  
 .button-container {
@@ -19,9 +21,8 @@
   border-radius:50%; 
   overflow:hidden; 
   cursor: pointer;
-  height:  100%;
-  width:  100%;
-  margin-bottom: 12vh;
+  /* height:  150px; */
+  width: 100%;
 }  
   
 .button-container p {
@@ -30,7 +31,7 @@
     border-radius:50%; 
     color: #FFFFFF;
     position:absolute;
-    font-size: calc(8px + 1vw); 
+    font-size: 65%; 
     font-weight: 700; 
     top: 0;
     left:0;
@@ -39,7 +40,6 @@
     padding-top: 40%;
     width: 100%;
     height:  100%;
-    display:inline-block;
     text-decoration: none;
     text-transform:uppercase;
 }
@@ -53,42 +53,22 @@
   width: 100%; 
   height: 100%; 
 }
-  
-.last {
-  margin-right: 0 !important;
-  clear: right;
-}
-  
-.clearboth {
-  clear: both;
-  display: block;
-  font-size: 0;
-  height: 0;
-  line-height: 0;
-  width: 100%;
-}
+
   
 @media only screen and (max-width: 600px) {
   .buttons-wrapper {
-    margin: 10vh auto;
-  }    
-
+    padding:20px 10%;
+  }
   .serviceBtn{
     height: 33%;
     padding: 0;
     margin: 0;
   }
-
-  #cuttingBtn {
-    float: none;
-    margin: 5vh calc(25% - 10vh + 1vw) 1vh; 
-  }   
+   
   #coloringBtn {
-    float: none;
-    margin: 1vh calc(50% - 10vh + 1vw); /* centered, given btn width (20vh) and page padding*/
+    margin-top: 20vh;
   }    
   #smoothingBtn {
-    float: none;
-    margin: 1vh calc(75% - 10vh + 1vw) 1vh;
+    margin-top: 40vh;
   } 
 }

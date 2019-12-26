@@ -13,18 +13,23 @@ const NavBar = props => {
     return (
         <div className={styles.navbar}>
             <span onClick={() => clickBtn('home')} className={styles.brand} >Barry Rollan Studio</span>
-            <p 
+            <div className={styles.navItems}>
+            <p
+                className={styles.navItem} 
                 onClick={() => clickBtn('home')}
                 >Home
             </p>
-            <p 
+            <p
+                className={styles.navItem} 
                 onClick={() => clickBtn('services')}
                 >Services
             </p>
-            <p 
+            <p
+                className={styles.navItem} 
                 onClick={() => clickBtn('color')}
                 >O&amp;M Cor Color
             </p>
+            </div>
         </div>
     )
 
