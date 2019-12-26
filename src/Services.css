@@ -31,7 +31,7 @@
     border-radius:50%; 
     color: #FFFFFF;
     position:absolute;
-    font-size: 65%; 
+    font-size: 60%; 
     font-weight: 700; 
     top: 0;
     left:0;
@@ -60,15 +60,15 @@
     padding:50px 10%;
   }
   .serviceBtn{
-    height: 33%;
+    height: 33.333%;
     padding: 0;
     margin: 0;
   }
    
   #coloringBtn {
-    margin-top: 20vh;
+    margin-top: 15vh;
   }    
   #smoothingBtn {
-    margin-top: 40vh;
+    margin-top: 30vh;
   } 
 }

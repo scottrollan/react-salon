@@ -33,6 +33,12 @@
 }
 
 @media screen and (max-width: 980px) {
+    .navbar {
+        justify-content: center;
+    }
+    .navItmes {
+        justify-content: space-around;
+    }
     .brand {
         display: none;
     }
