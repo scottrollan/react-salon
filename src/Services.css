@@ -57,7 +57,7 @@
   
 @media only screen and (max-width: 600px) {
   .buttons-wrapper {
-    padding:20px 10%;
+    padding:50px 10%;
   }
   .serviceBtn{
     height: 33%;
